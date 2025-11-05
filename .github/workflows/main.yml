@@ -16,4 +16,4 @@ jobs:
       - name: Run tests
         run: python manage.py test
       - name: Bisect script
-        run: python myscript.py
+        run: python /.github/workflows/myscript.py
